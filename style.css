@@ -1,9 +1,10 @@
 @-webkit-keyframes pulse {
-  0% {background-color: #EA6045;}
-  25% {background-color: #F8CA4D;}
-  50% {background-color: #F5E5C0;}
-  75% {background-color: #3F5666;}
-  100% {background-color: #2F3440;}
+  0% {background-color: #46DBEB;}
+  20% {background-color: #E346EB;}
+  40% {background-color: #33FF00;}
+  60% {background-color: #F2FF00;}
+  80% {background-color: #FF9100;}
+  100 {background-color: #ff69b4}
 }
 
 body {
