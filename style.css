@@ -7,13 +7,24 @@
   100 {background-color: #ff69b4}
 }
 
+@-moz-keyframes pulse {
+  0% {background-color: #46DBEB;}
+  20% {background-color: #E346EB;}
+  40% {background-color: #33FF00;}
+  60% {background-color: #F2FF00;}
+  80% {background-color: #FF9100;}
+  100 {background-color: #ff69b4}
+}
+
 body {
   margin: 0;
   width: 100%;
   height: 100%;
   font-family: 'Lakki Reddy', cursive;
   background-color: #EA6045;
-  -webkit-animation: pulse 1s infinite alternate;
+  -webkit-animation:pulse 1s infinite alternate;
+  -moz-animation:pulse 1s infinite alternate;
+  animation:pulse 1s infinite alternate;
 }
 
 header {
