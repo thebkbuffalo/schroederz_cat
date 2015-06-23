@@ -3,11 +3,11 @@
   20% {background-color: #E346EB;}
   30% {background-color: #FFD8FF;}
   40% {background-color: #33FF00;}
-  50% {background-color: #3333FF;}
+  50% {background-color: #ff69b4;}
   60% {background-color: #F2FF00;}
   70% {background-color: #FF00CC;}
   80% {background-color: #FF9100;}
-  100 {background-color: #ff69b4}
+  100% {background-color: #3333FF;}
 }
 
 @-moz-keyframes pulse {
@@ -15,11 +15,11 @@
   20% {background-color: #E346EB;}
   30% {background-color: #FFD8FF;}
   40% {background-color: #33FF00;}
-  50% {background-color: #3333FF;}
+  50% {background-color: #ff69b4;}
   60% {background-color: #F2FF00;}
   70% {background-color: #FF00CC;}
   80% {background-color: #FF9100;}
-  100 {background-color: #ff69b4}
+  100% {background-color: #3333FF;}
 }
 
 body {
