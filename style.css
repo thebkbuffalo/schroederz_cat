@@ -1,8 +1,11 @@
 @-webkit-keyframes pulse {
   0% {background-color: #46DBEB;}
   20% {background-color: #E346EB;}
+  30% {background-color: #FFD8FF;}
   40% {background-color: #33FF00;}
+  50% {background-color: #3333FF;}
   60% {background-color: #F2FF00;}
+  70% {background-color: #FF00CC;}
   80% {background-color: #FF9100;}
   100 {background-color: #ff69b4}
 }
@@ -10,8 +13,11 @@
 @-moz-keyframes pulse {
   0% {background-color: #46DBEB;}
   20% {background-color: #E346EB;}
+  30% {background-color: #FFD8FF;}
   40% {background-color: #33FF00;}
+  50% {background-color: #3333FF;}
   60% {background-color: #F2FF00;}
+  70% {background-color: #FF00CC;}
   80% {background-color: #FF9100;}
   100 {background-color: #ff69b4}
 }
@@ -22,9 +28,9 @@ body {
   height: 100%;
   font-family: 'Lakki Reddy', cursive;
   background-color: #EA6045;
-  -webkit-animation:pulse 1s infinite alternate;
-  -moz-animation:pulse 1s infinite alternate;
-  animation:pulse 1s infinite alternate;
+  -webkit-animation:pulse .93s infinite alternate;
+  -moz-animation:pulse .93s infinite alternate;
+  animation:pulse .93s infinite alternate;
 }
 
 header {
